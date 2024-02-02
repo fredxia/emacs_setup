@@ -258,7 +258,7 @@
  '(org-level-2 ((t (:extend nil :foreground "LightSalmon" :weight normal :width normal))))
  '(org-level-3 ((t (:foreground "color-230"))))
  '(org-level-4 ((t (:foreground "color-166"))))
- '(org-link ((t (:foreground "color-123"))))
+ '(org-link ((t (:foreground "color-75"))))
  '(org-meta-line ((t (:foreground "color-112"))))
  '(org-tag ((t (:foreground "color-172" :weight bold))))
  '(org-target ((t (:foreground "color-208" :underline t))))
