@@ -46,8 +46,7 @@
    '(("en" "<p class=\"author\">%a, updated on %C</p><hr><br>")))
  '(org-time-stamp-custom-formats '("<%m/%d %a>" . "<%m/%d %a %H:%M>"))
  '(package-selected-packages
-   '(xcscope json-mode bazel helm-xref dockerfile-mode docker org magit-diff-flycheck compat lsp-ivy lsp-pyright lsp-ui flycheck-rust company lsp-mode rust-auto-use go-mode magit gopls protobuf-mode yaml-mode yaml toml-mode rust-mode))
- '(tool-bar-mode nil)
+   '(flycheck yasnippet rustic xcscope json-mode bazel helm-xref dockerfile-mode docker org magit-diff-flycheck compat lsp-ivy lsp-pyright lsp-ui flycheck-rust company lsp-mode rust-auto-use go-mode magit gopls protobuf-mode yaml-mode yaml toml-mode rust-mode))
  '(visible-bell t)
  '(yaml-indent-offset 2))
 
