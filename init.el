@@ -62,7 +62,7 @@
 ;; This is for eglot LSP setup
 (with-eval-after-load 'eglot
   (add-to-list 'eglot-server-programs
-               `(c++-mode . ("/usr/bin/clangd-16" "--compile-commands-dir=/home/fred.xia/ota"))))
+               `(c++-mode . ("/usr/bin/clangd-15" "--compile-commands-dir=/home/fred.xia/ota"))))
 
 (autoload 'gid "idutils")
 
@@ -106,9 +106,10 @@
                         ("\\.yaml$" . yaml-mode)
                         ("\\.yml$"  . yaml-mode)
                         ("\\.proto$" . protobuf-mode)
-                        ("\\.el$" . emacs-lisp-mode)
-                        ("\\.md$" . markdown-mode)
-                        ("BUILD" . bazel-module-mode)
+                        ("\\.el$"   . emacs-lisp-mode)
+                        ("\\.md$"   . markdown-mode)
+                        ("\\.bzl$"  . bazel-starlark-mode)
+                        ("BUILD$"   . bazel-module-mode)
                         ))
 
 (setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88))
